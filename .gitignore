@@ -128,3 +128,55 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/.idea/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables file
+.env
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Angular build files
+/dist
+/tmp
+/out-tsc
+
+# IDE configuration files
+.idea/
+.vscode/
+
+# Generated production build files
+/build
+
+# Coverage directories from testing
+/coverage
+
+# Dependency directories
+/lib-cov
+/coverage/lcov-report
+
+# Other files to exclude
+package-lock.json
+yarn.lock
+
+# Backend-specific
+/debug/
+.env.local
+
+# Ignore frontend specific settings
+angular.json
+tsconfig.json
+
+# Ignore environment-specific settings
+src/environments/
